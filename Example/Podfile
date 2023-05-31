@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'AV360_Example' do
+  pod 'AV360', :path => '../'
+
+  target 'AV360_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

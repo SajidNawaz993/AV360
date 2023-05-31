@@ -1,0 +1,16 @@
+PODS:
+  - AV360 (0.1.0)
+
+DEPENDENCIES:
+  - AV360 (from `../`)
+
+EXTERNAL SOURCES:
+  AV360:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AV360: 8375fbc8987dcaf9f3b8caab0e017c79aab9aa4d
+
+PODFILE CHECKSUM: e184efbf5b2d995547bb9f6ca7a94ebe184b16f8
+
+COCOAPODS: 1.11.3

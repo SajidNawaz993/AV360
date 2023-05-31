@@ -1,0 +1,22 @@
+{
+  "name": "AV360",
+  "version": "0.1.0",
+  "summary": "A short description of AV360.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sajidnawaz993@gmail.com/AV360",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sajidnawaz993@gmail.com": "sajidnawaz993@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sajidnawaz993@gmail.com/AV360.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AV360/Classes/**/*"
+}

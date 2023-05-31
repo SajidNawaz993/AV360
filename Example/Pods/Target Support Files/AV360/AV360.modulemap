@@ -1,0 +1,6 @@
+framework module AV360 {
+  umbrella header "AV360-umbrella.h"
+
+  export *
+  module * { export * }
+}
