@@ -42,9 +42,6 @@ let vc = PlayerVC.getPlayerVC(eventId: "6364efc88644b4cfc5bdafad", bearerToken: 
 self.present(vc, animated: true)
 
 ```
-
-For questions - refer to Particle mobile knowledgebase/community here: https://community.particle.io/c/mobile
-
 Good luck!
 
 ## Author
