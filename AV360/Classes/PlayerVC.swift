@@ -213,7 +213,7 @@ public class PlayerVC: UIViewController {
         var request = URLRequest(url: URL(string: "https://7k67ed7acrzp3725sijxq3fedm0xaowa.lambda-url.eu-central-1.on.aws/events/\(eventId)")!)
         request.httpMethod = "GET"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.addValue("Authorization", forHTTPHeaderField: "Bearer \(bearerToken)")
+        request.addValue("Authorization", forHTTPHeaderField: "\(bearerToken)")
         self.showActivityIndicator()
         let session = URLSession.shared
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
@@ -227,6 +227,9 @@ public class PlayerVC: UIViewController {
                     self.collectionView.reloadData()
                 }
             } catch {
+                if let returnData = String(data: data!, encoding: .utf8) {
+                         print(returnData)
+                       }
                 print("error \(error.localizedDescription)")
             }
         })

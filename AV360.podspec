@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AV360'
-  s.version          = '0.1.0'
+  s.version          = '1.0'
   s.swift_version = '4.0'
     s.summary          = 'AV360 player for view video with 360 rotation'
   s.description      = 'AV360 is player to view video 360 degree with rotate device and swipe finger left right up and down'

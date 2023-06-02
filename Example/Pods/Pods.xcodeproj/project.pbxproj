@@ -7,111 +7,111 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		033648A6098FD226E393FD72632D8C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		03DE93B170E2EA39355FA4D0DDD9F036 /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B421965492BDEE51C7497A088629BD33 /* PlayerVC.swift */; };
 		075876235EBF3B6C54BC67BBB57569D4 /* Pods-AV360_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2461DC88FFAFC44CDC6BBB6706B14BCA /* Pods-AV360_Tests-dummy.m */; };
+		07EE723412554E294B8ED4F336760A23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		092402A2C338D58177762C95C885D922 /* Pods-AV360_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F9FC6642C43765A4F4D9F83A1DE8F3 /* Pods-AV360_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BE351220FE57FDAD07401DF22BCEB5D /* AV360-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A866F91970F324B9540D1D969A95D97 /* AV360-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191976235B735ADF88638AEA43601498 /* back-arrow-white.png in Resources */ = {isa = PBXBuildFile; fileRef = CD3EE3A7FD24D34EE6A98FA629F08888 /* back-arrow-white.png */; };
+		254FC8408D2837DDDF855E93B51D8728 /* AV360-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B4D975D590999B59C48F2011251D2C7 /* AV360-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28419F7992393450DADD919F2EE1589D /* AvatarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9355ED84536E3F5D0206830CC849DD21 /* AvatarCollectionViewCell.xib */; };
+		2916B37D97F381A8E71EC3D6503E054D /* AV360Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A97942E56EBCC32173FEBA363C751F /* AV360Window.swift */; };
 		34079A3EF7A9103A5ADD85EA6FFD7FD6 /* Pods-AV360_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 700F0ADC8E76B7509F021546BA8C47C6 /* Pods-AV360_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		401219D62FACA200D6A4B58BE99A6F2D /* AV360-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECDDE968A30E3F80171C4B6A230DE47 /* AV360-dummy.m */; };
+		35B1C5603323D793BC0DEB8F168254AD /* AV360PlayerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73AA08E3A0E3351042515FEB235BA6 /* AV360PlayerScene.swift */; };
+		40CDABD0B2E6C6CA4B02051BE2DC0520 /* AV360CameraPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70BDFD35BB665F02A09D9C26E89D928 /* AV360CameraPanGestureRecognizer.swift */; };
+		47FC2C34B9D961B221CB2B64F4B26A7E /* PlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04CC87EBBC1B69931773E3FFFBB3B3B4 /* PlayerVC.xib */; };
+		4AB04F173CC4E1F4E3810A66BD50E927 /* ic_sound_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B7EEB9DEFC8CA2B5CFDA509330D9A3A /* ic_sound_mute.png */; };
+		502CEE8AD0E9519D7B8DDE42FB6E1B80 /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01869CB4742D3CCB8B9B96588AFA40B5 /* AvatarCollectionViewCell.swift */; };
+		52EA866572B74AFC02ED8E96AEEE696B /* AV360CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5EC8CC841A82B14717CADADFBED541 /* AV360CameraController.swift */; };
 		56B1190C52B4723CC5267DA9FEA197F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6BDF629A7C147037328B66D25BCD7D8D /* AV360-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF2E75F39220538FABAB096B426978 /* AV360-dummy.m */; };
+		7215EA93A4C42A49A05FDEC02168DA66 /* AV360MotionManagerObserverItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EAF26F72CAE18C2CAD5A334C03012 /* AV360MotionManagerObserverItem.swift */; };
+		8182CF94024DEAB15E4845E533983446 /* SwiftySKVideoNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628D7D2E9100379EEF91F7BDF22FEC00 /* SwiftySKVideoNode.swift */; };
 		850F088EDF1592AAB08FE91FCDA76005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8B3BC9F02A2742AA002F32ED /* AV360CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9E22A2742AA002F32ED /* AV360CameraController.swift */; };
-		8B3BC9F12A2742AA002F32ED /* AV360PlayerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9E32A2742AA002F32ED /* AV360PlayerScene.swift */; };
-		8B3BC9F22A2742AA002F32ED /* AV360Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9E42A2742AA002F32ED /* AV360Window.swift */; };
-		8B3BC9F32A2742AA002F32ED /* AV360ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9E52A2742AA002F32ED /* AV360ViewController.swift */; };
-		8B3BC9F42A2742AA002F32ED /* PlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9E62A2742AA002F32ED /* PlayerVC.swift */; };
-		8B3BC9F52A2742AA002F32ED /* AV360Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9E72A2742AA002F32ED /* AV360Types.swift */; };
-		8B3BC9F62A2742AA002F32ED /* AV360MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9E82A2742AA002F32ED /* AV360MotionManager.swift */; };
-		8B3BC9F72A2742AA002F32ED /* AV360CameraPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9E92A2742AA002F32ED /* AV360CameraPanGestureRecognizer.swift */; };
-		8B3BC9F82A2742AA002F32ED /* AV360MotionManagerObserverItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9EA2A2742AA002F32ED /* AV360MotionManagerObserverItem.swift */; };
-		8B3BC9F92A2742AA002F32ED /* SwiftySKVideoNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9EB2A2742AA002F32ED /* SwiftySKVideoNode.swift */; };
-		8B3BC9FA2A2742AA002F32ED /* AV360EulerAngleCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9EC2A2742AA002F32ED /* AV360EulerAngleCalculations.swift */; };
-		8B3BC9FB2A2742AA002F32ED /* AvatarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9ED2A2742AA002F32ED /* AvatarCollectionViewCell.swift */; };
-		8B3BC9FC2A2742AA002F32ED /* AV360View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9EE2A2742AA002F32ED /* AV360View.swift */; };
-		8B3BC9FD2A2742AA002F32ED /* Float++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3BC9EF2A2742AA002F32ED /* Float++.swift */; };
-		8B3BCA042A2742C1002F32ED /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BC9FE2A2742C0002F32ED /* arrow_up.png */; };
-		8B3BCA052A2742C1002F32ED /* ic_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BC9FF2A2742C0002F32ED /* ic_pause.png */; };
-		8B3BCA062A2742C1002F32ED /* ic_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BCA002A2742C0002F32ED /* ic_play.png */; };
-		8B3BCA072A2742C1002F32ED /* back-arrow-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BCA012A2742C0002F32ED /* back-arrow-white.png */; };
-		8B3BCA082A2742C1002F32ED /* ic_sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BCA022A2742C1002F32ED /* ic_sound.png */; };
-		8B3BCA092A2742C1002F32ED /* ic_sound_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BCA032A2742C1002F32ED /* ic_sound_mute.png */; };
-		8B3BCA0C2A2742D0002F32ED /* PlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BCA0A2A2742D0002F32ED /* PlayerVC.xib */; };
-		8B3BCA0D2A2742D0002F32ED /* AvatarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B3BCA0B2A2742D0002F32ED /* AvatarCollectionViewCell.xib */; };
+		9D565F53E0DB3257853870380317F38F /* ic_sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 17263AB9B51857DF5E11901FFFAF25D2 /* ic_sound.png */; };
+		A48653DDB92D2EA990D97A459A2A838E /* AV360View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B76A6E586FBFC49AB585422466ECBF9 /* AV360View.swift */; };
+		C0BFFAEC5387D90B77E96F67D0D0F1A8 /* AV360EulerAngleCalculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217DD32E05A2819263902D30AD819B6F /* AV360EulerAngleCalculations.swift */; };
+		D02464FEB354916FCB82B2751D6CF47B /* Float++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9444611E52794836AFD2938D7588816E /* Float++.swift */; };
+		D046B58E245F42378E5664C3BF997292 /* AV360Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30708EEEED541605B601C5FAA40B58 /* AV360Types.swift */; };
 		D1BC0C1C88F629C40B39B4629719B0EF /* Pods-AV360_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B6BF3400FC03C31CE20D657B741D53 /* Pods-AV360_Example-dummy.m */; };
+		D580781879E161573054E4742C4837D1 /* AV360MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DA70C374C2EDCD18E6EA6E886ECC3A /* AV360MotionManager.swift */; };
+		D833FF320F014368A02CC65D5AEF45E0 /* ic_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 95EA7AB2E7090A73F4157EB8E1D6243E /* ic_pause.png */; };
+		D9E1344782E143F74E25FF3CCAA97E49 /* AV360ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44829103651402F534C43CF1A7DD7E19 /* AV360ViewController.swift */; };
+		E38A3EF5E97BBFB21CAE087EECB7A6EC /* ic_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FEA21DE73CB2192B6DA0B260F5990C0 /* ic_play.png */; };
+		E988C214CC82971EE92382BA824E2888 /* arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 32159FB3198E26309A37E4E22E80C7E8 /* arrow_up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4B8E74855754FF3E07A43D0FFB3B8909 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 14E54E50066F2E549654D107B77B150E;
-			remoteInfo = AV360;
-		};
-		BF27C043A23973E5EAC8DB3270894251 /* PBXContainerItemProxy */ = {
+		5B4AB3CA0D031A8FE3BC4A9FBE1B1FD1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3FAC998032FA61F6CA8B9D233E901510;
 			remoteInfo = "Pods-AV360_Example";
 		};
+		62F19909A3760035FF20FB59C8F4AF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E54E50066F2E549654D107B77B150E;
+			remoteInfo = AV360;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01869CB4742D3CCB8B9B96588AFA40B5 /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AvatarCollectionViewCell.swift; path = AV360/Classes/AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
 		031F1226601EBA86C43538053895D700 /* Pods-AV360_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AV360_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		03DD9DF9BAA4020C2678A5AC33917B16 /* AV360.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AV360.modulemap; sourceTree = "<group>"; };
+		04CC87EBBC1B69931773E3FFFBB3B3B4 /* PlayerVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = PlayerVC.xib; path = AV360/PlayerVC.xib; sourceTree = "<group>"; };
 		0719CA089159C3F725D9BFD8F05C00A4 /* Pods-AV360_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AV360_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0F6187598458B434FA63F8800A8EC4CC /* Pods-AV360_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AV360_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		13D0293FA752F71798C06CF1A2D27121 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1761371A872ED8C3F5781CEE8C46BC93 /* AV360.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AV360.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1B8265D4335FBF816A2ECA6FFD89DAA5 /* Pods_AV360_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AV360_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BC3060A31FB2F5532195F3E50569F31 /* Pods_AV360_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AV360_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FEA21DE73CB2192B6DA0B260F5990C0 /* ic_play.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_play.png; sourceTree = "<group>"; };
+		17263AB9B51857DF5E11901FFFAF25D2 /* ic_sound.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_sound.png; sourceTree = "<group>"; };
+		1B4D975D590999B59C48F2011251D2C7 /* AV360-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AV360-umbrella.h"; sourceTree = "<group>"; };
+		1B8265D4335FBF816A2ECA6FFD89DAA5 /* Pods-AV360_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AV360_Tests"; path = Pods_AV360_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC3060A31FB2F5532195F3E50569F31 /* Pods-AV360_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AV360_Example"; path = Pods_AV360_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		217DD32E05A2819263902D30AD819B6F /* AV360EulerAngleCalculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360EulerAngleCalculations.swift; path = AV360/Classes/AV360EulerAngleCalculations.swift; sourceTree = "<group>"; };
 		2461DC88FFAFC44CDC6BBB6706B14BCA /* Pods-AV360_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AV360_Tests-dummy.m"; sourceTree = "<group>"; };
-		2ECDDE968A30E3F80171C4B6A230DE47 /* AV360-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AV360-dummy.m"; sourceTree = "<group>"; };
-		31F10137EFBC372208976CFA02E11279 /* AV360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AV360.debug.xcconfig; sourceTree = "<group>"; };
+		2B7EEB9DEFC8CA2B5CFDA509330D9A3A /* ic_sound_mute.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_sound_mute.png; sourceTree = "<group>"; };
+		2BBF2E75F39220538FABAB096B426978 /* AV360-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AV360-dummy.m"; sourceTree = "<group>"; };
+		32159FB3198E26309A37E4E22E80C7E8 /* arrow_up.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = arrow_up.png; sourceTree = "<group>"; };
+		39DA70C374C2EDCD18E6EA6E886ECC3A /* AV360MotionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360MotionManager.swift; path = AV360/Classes/AV360MotionManager.swift; sourceTree = "<group>"; };
+		3B6EAF26F72CAE18C2CAD5A334C03012 /* AV360MotionManagerObserverItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360MotionManagerObserverItem.swift; path = AV360/Classes/AV360MotionManagerObserverItem.swift; sourceTree = "<group>"; };
 		3BF73F3315E7C29A53EB152DE2D8F831 /* Pods-AV360_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AV360_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3C73AA08E3A0E3351042515FEB235BA6 /* AV360PlayerScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360PlayerScene.swift; path = AV360/Classes/AV360PlayerScene.swift; sourceTree = "<group>"; };
+		43A97942E56EBCC32173FEBA363C751F /* AV360Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360Window.swift; path = AV360/Classes/AV360Window.swift; sourceTree = "<group>"; };
 		44517BED74339362D4AD48FF950A07E2 /* Pods-AV360_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AV360_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A866F91970F324B9540D1D969A95D97 /* AV360-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AV360-umbrella.h"; sourceTree = "<group>"; };
+		44829103651402F534C43CF1A7DD7E19 /* AV360ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360ViewController.swift; path = AV360/Classes/AV360ViewController.swift; sourceTree = "<group>"; };
+		4B76A6E586FBFC49AB585422466ECBF9 /* AV360View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360View.swift; path = AV360/Classes/AV360View.swift; sourceTree = "<group>"; };
 		5BB51CD465F28D464422A1E0534E43C4 /* Pods-AV360_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AV360_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		628D7D2E9100379EEF91F7BDF22FEC00 /* SwiftySKVideoNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftySKVideoNode.swift; path = AV360/Classes/SwiftySKVideoNode.swift; sourceTree = "<group>"; };
+		63A064EC13F38C9B51139105B7795C4D /* AV360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AV360.release.xcconfig; sourceTree = "<group>"; };
 		647AD631DF2472243259AEB0DB2A06F9 /* Pods-AV360_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AV360_Example-Info.plist"; sourceTree = "<group>"; };
 		64FAF9FCAEA311AA5327B36F6209A4F4 /* Pods-AV360_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AV360_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		695EFEBA187DC90D65C7292828FA2D75 /* AV360.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AV360.release.xcconfig; sourceTree = "<group>"; };
 		700F0ADC8E76B7509F021546BA8C47C6 /* Pods-AV360_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AV360_Tests-umbrella.h"; sourceTree = "<group>"; };
-		72D893A1A63B123FAFCAF11D7C5D9B14 /* AV360-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AV360-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		753EA1FC2D12365BBC463FA788642C79 /* AV360-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AV360-Info.plist"; sourceTree = "<group>"; };
 		7FE78B9FE5D55D63D83062E26EAD8BB3 /* Pods-AV360_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AV360_Tests.modulemap"; sourceTree = "<group>"; };
-		8B3BC9E22A2742AA002F32ED /* AV360CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360CameraController.swift; path = ../../AV360/Classes/AV360CameraController.swift; sourceTree = "<group>"; };
-		8B3BC9E32A2742AA002F32ED /* AV360PlayerScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360PlayerScene.swift; path = ../../AV360/Classes/AV360PlayerScene.swift; sourceTree = "<group>"; };
-		8B3BC9E42A2742AA002F32ED /* AV360Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360Window.swift; path = ../../AV360/Classes/AV360Window.swift; sourceTree = "<group>"; };
-		8B3BC9E52A2742AA002F32ED /* AV360ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360ViewController.swift; path = ../../AV360/Classes/AV360ViewController.swift; sourceTree = "<group>"; };
-		8B3BC9E62A2742AA002F32ED /* PlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerVC.swift; path = ../../AV360/Classes/PlayerVC.swift; sourceTree = "<group>"; };
-		8B3BC9E72A2742AA002F32ED /* AV360Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360Types.swift; path = ../../AV360/Classes/AV360Types.swift; sourceTree = "<group>"; };
-		8B3BC9E82A2742AA002F32ED /* AV360MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360MotionManager.swift; path = ../../AV360/Classes/AV360MotionManager.swift; sourceTree = "<group>"; };
-		8B3BC9E92A2742AA002F32ED /* AV360CameraPanGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360CameraPanGestureRecognizer.swift; path = ../../AV360/Classes/AV360CameraPanGestureRecognizer.swift; sourceTree = "<group>"; };
-		8B3BC9EA2A2742AA002F32ED /* AV360MotionManagerObserverItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360MotionManagerObserverItem.swift; path = ../../AV360/Classes/AV360MotionManagerObserverItem.swift; sourceTree = "<group>"; };
-		8B3BC9EB2A2742AA002F32ED /* SwiftySKVideoNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftySKVideoNode.swift; path = ../../AV360/Classes/SwiftySKVideoNode.swift; sourceTree = "<group>"; };
-		8B3BC9EC2A2742AA002F32ED /* AV360EulerAngleCalculations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360EulerAngleCalculations.swift; path = ../../AV360/Classes/AV360EulerAngleCalculations.swift; sourceTree = "<group>"; };
-		8B3BC9ED2A2742AA002F32ED /* AvatarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AvatarCollectionViewCell.swift; path = ../../AV360/Classes/AvatarCollectionViewCell.swift; sourceTree = "<group>"; };
-		8B3BC9EE2A2742AA002F32ED /* AV360View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AV360View.swift; path = ../../AV360/Classes/AV360View.swift; sourceTree = "<group>"; };
-		8B3BC9EF2A2742AA002F32ED /* Float++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Float++.swift"; path = "../../AV360/Classes/Float++.swift"; sourceTree = "<group>"; };
-		8B3BC9FE2A2742C0002F32ED /* arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow_up.png; path = ../../AV360/Assets/arrow_up.png; sourceTree = "<group>"; };
-		8B3BC9FF2A2742C0002F32ED /* ic_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_pause.png; path = ../../AV360/Assets/ic_pause.png; sourceTree = "<group>"; };
-		8B3BCA002A2742C0002F32ED /* ic_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_play.png; path = ../../AV360/Assets/ic_play.png; sourceTree = "<group>"; };
-		8B3BCA012A2742C0002F32ED /* back-arrow-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "back-arrow-white.png"; path = "../../AV360/Assets/back-arrow-white.png"; sourceTree = "<group>"; };
-		8B3BCA022A2742C1002F32ED /* ic_sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_sound.png; path = ../../AV360/Assets/ic_sound.png; sourceTree = "<group>"; };
-		8B3BCA032A2742C1002F32ED /* ic_sound_mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_sound_mute.png; path = ../../AV360/Assets/ic_sound_mute.png; sourceTree = "<group>"; };
-		8B3BCA0A2A2742D0002F32ED /* PlayerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlayerVC.xib; path = ../../AV360/PlayerVC.xib; sourceTree = "<group>"; };
-		8B3BCA0B2A2742D0002F32ED /* AvatarCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AvatarCollectionViewCell.xib; path = ../../AV360/AvatarCollectionViewCell.xib; sourceTree = "<group>"; };
-		8FCE1EBC64CA06A31AE25C549FBBF7AB /* AV360.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AV360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8D3E2F7BDFD150E66FB8C372B30E0395 /* AV360.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AV360.modulemap; sourceTree = "<group>"; };
+		8FCE1EBC64CA06A31AE25C549FBBF7AB /* AV360 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AV360; path = AV360.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9355ED84536E3F5D0206830CC849DD21 /* AvatarCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = AvatarCollectionViewCell.xib; path = AV360/AvatarCollectionViewCell.xib; sourceTree = "<group>"; };
+		9444611E52794836AFD2938D7588816E /* Float++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Float++.swift"; path = "AV360/Classes/Float++.swift"; sourceTree = "<group>"; };
+		95EA7AB2E7090A73F4157EB8E1D6243E /* ic_pause.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = ic_pause.png; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F6435844BD457994A6402A0DC04C01A /* Pods-AV360_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AV360_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A4EDFC490D793DF751B51B4CCB1B810E /* Pods-AV360_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AV360_Example.modulemap"; sourceTree = "<group>"; };
+		A70BDFD35BB665F02A09D9C26E89D928 /* AV360CameraPanGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360CameraPanGestureRecognizer.swift; path = AV360/Classes/AV360CameraPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		AD30708EEEED541605B601C5FAA40B58 /* AV360Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360Types.swift; path = AV360/Classes/AV360Types.swift; sourceTree = "<group>"; };
+		B421965492BDEE51C7497A088629BD33 /* PlayerVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerVC.swift; path = AV360/Classes/PlayerVC.swift; sourceTree = "<group>"; };
 		B4B6BF3400FC03C31CE20D657B741D53 /* Pods-AV360_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AV360_Example-dummy.m"; sourceTree = "<group>"; };
 		B4F9FC6642C43765A4F4D9F83A1DE8F3 /* Pods-AV360_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AV360_Example-umbrella.h"; sourceTree = "<group>"; };
-		C124E0BA15EFB8AD3ED59077380E7A80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B74CAC418A8A7C4D0280CF106075C3BA /* AV360.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AV360.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCD0612C97070A4176D6F330A3E8C142 /* AV360-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AV360-Info.plist"; sourceTree = "<group>"; };
+		BF5EC8CC841A82B14717CADADFBED541 /* AV360CameraController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AV360CameraController.swift; path = AV360/Classes/AV360CameraController.swift; sourceTree = "<group>"; };
+		CAB1E49A46CF266C441627DFE68AD5A8 /* AV360-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AV360-prefix.pch"; sourceTree = "<group>"; };
+		CD3EE3A7FD24D34EE6A98FA629F08888 /* back-arrow-white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "back-arrow-white.png"; sourceTree = "<group>"; };
 		CF20BF7A0199E46BAF886FEA0DA6A40F /* Pods-AV360_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AV360_Tests-Info.plist"; sourceTree = "<group>"; };
+		DABC34ED4C80D884B877769A0C36F558 /* AV360.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AV360.debug.xcconfig; sourceTree = "<group>"; };
 		E8D1430D720BBBB9C57B268680054759 /* Pods-AV360_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AV360_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDAB34D3A515D9F1A7BC0EE316D1E5AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F96D8A253E3EA22D94BDDD30BE997938 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,14 +123,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D93035C27FC6429C6371A74DD5DC2732 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				033648A6098FD226E393FD72632D8C68 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DA59059BBA13D1D421C5C32C9228FF27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,9 +131,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FC85C1FE05A5BBEFA9E7184ADDC7D87C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EE723412554E294B8ED4F336760A23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06E8E305D679A1B2B3A3EA764F96D5D0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				32159FB3198E26309A37E4E22E80C7E8 /* arrow_up.png */,
+				CD3EE3A7FD24D34EE6A98FA629F08888 /* back-arrow-white.png */,
+				95EA7AB2E7090A73F4157EB8E1D6243E /* ic_pause.png */,
+				0FEA21DE73CB2192B6DA0B260F5990C0 /* ic_play.png */,
+				17263AB9B51857DF5E11901FFFAF25D2 /* ic_sound.png */,
+				2B7EEB9DEFC8CA2B5CFDA509330D9A3A /* ic_sound_mute.png */,
+			);
+			name = Assets;
+			path = AV360/Assets;
+			sourceTree = "<group>";
+		};
 		12FB438EA8773E605B1FD7FEFB241FF0 /* Pods-AV360_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,14 +173,14 @@
 			path = "Target Support Files/Pods-AV360_Example";
 			sourceTree = "<group>";
 		};
-		34975980E3E05BAB465CC73A7032621C /* AV360 */ = {
+		177427BC2462BA88DF3E2FB993651979 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A2DF461CA32E22664D6A05C5A2D08C12 /* Pod */,
-				5A6339DB7AFD29A16A5D7AE3500B9158 /* Support Files */,
+				B74CAC418A8A7C4D0280CF106075C3BA /* AV360.podspec */,
+				EDAB34D3A515D9F1A7BC0EE316D1E5AB /* LICENSE */,
+				F96D8A253E3EA22D94BDDD30BE997938 /* README.md */,
 			);
-			name = AV360;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3560DEC7A3B4BC0C99D51915AEEDA283 /* Pods-AV360_Tests */ = {
@@ -202,45 +216,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5A6339DB7AFD29A16A5D7AE3500B9158 /* Support Files */ = {
+		83D923D97AC346DCB1F19C12AF424AF6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03DD9DF9BAA4020C2678A5AC33917B16 /* AV360.modulemap */,
-				2ECDDE968A30E3F80171C4B6A230DE47 /* AV360-dummy.m */,
-				753EA1FC2D12365BBC463FA788642C79 /* AV360-Info.plist */,
-				72D893A1A63B123FAFCAF11D7C5D9B14 /* AV360-prefix.pch */,
-				4A866F91970F324B9540D1D969A95D97 /* AV360-umbrella.h */,
-				31F10137EFBC372208976CFA02E11279 /* AV360.debug.xcconfig */,
-				695EFEBA187DC90D65C7292828FA2D75 /* AV360.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AV360";
-			sourceTree = "<group>";
-		};
-		86686D1ACBF2E3128C684B9E032C13E4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				34975980E3E05BAB465CC73A7032621C /* AV360 */,
+				EFCD9A1F59F45403675F561C16D6B6C4 /* AV360 */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		A2DF461CA32E22664D6A05C5A2D08C12 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				1761371A872ED8C3F5781CEE8C46BC93 /* AV360.podspec */,
-				C124E0BA15EFB8AD3ED59077380E7A80 /* LICENSE */,
-				13D0293FA752F71798C06CF1A2D27121 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		B6E6A96CED631CBB63308CEFB643E460 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FCE1EBC64CA06A31AE25C549FBBF7AB /* AV360.framework */,
-				1BC3060A31FB2F5532195F3E50569F31 /* Pods_AV360_Example.framework */,
-				1B8265D4335FBF816A2ECA6FFD89DAA5 /* Pods_AV360_Tests.framework */,
+				8FCE1EBC64CA06A31AE25C549FBBF7AB /* AV360 */,
+				1BC3060A31FB2F5532195F3E50569F31 /* Pods-AV360_Example */,
+				1B8265D4335FBF816A2ECA6FFD89DAA5 /* Pods-AV360_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,30 +237,8 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				8B3BCA0B2A2742D0002F32ED /* AvatarCollectionViewCell.xib */,
-				8B3BCA0A2A2742D0002F32ED /* PlayerVC.xib */,
-				8B3BC9FE2A2742C0002F32ED /* arrow_up.png */,
-				8B3BCA012A2742C0002F32ED /* back-arrow-white.png */,
-				8B3BC9FF2A2742C0002F32ED /* ic_pause.png */,
-				8B3BCA002A2742C0002F32ED /* ic_play.png */,
-				8B3BCA032A2742C1002F32ED /* ic_sound_mute.png */,
-				8B3BCA022A2742C1002F32ED /* ic_sound.png */,
-				8B3BC9E22A2742AA002F32ED /* AV360CameraController.swift */,
-				8B3BC9E92A2742AA002F32ED /* AV360CameraPanGestureRecognizer.swift */,
-				8B3BC9EC2A2742AA002F32ED /* AV360EulerAngleCalculations.swift */,
-				8B3BC9E82A2742AA002F32ED /* AV360MotionManager.swift */,
-				8B3BC9EA2A2742AA002F32ED /* AV360MotionManagerObserverItem.swift */,
-				8B3BC9E32A2742AA002F32ED /* AV360PlayerScene.swift */,
-				8B3BC9E72A2742AA002F32ED /* AV360Types.swift */,
-				8B3BC9EE2A2742AA002F32ED /* AV360View.swift */,
-				8B3BC9E52A2742AA002F32ED /* AV360ViewController.swift */,
-				8B3BC9E42A2742AA002F32ED /* AV360Window.swift */,
-				8B3BC9ED2A2742AA002F32ED /* AvatarCollectionViewCell.swift */,
-				8B3BC9EF2A2742AA002F32ED /* Float++.swift */,
-				8B3BC9E62A2742AA002F32ED /* PlayerVC.swift */,
-				8B3BC9EB2A2742AA002F32ED /* SwiftySKVideoNode.swift */,
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				86686D1ACBF2E3128C684B9E032C13E4 /* Development Pods */,
+				83D923D97AC346DCB1F19C12AF424AF6 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				B6E6A96CED631CBB63308CEFB643E460 /* Products */,
 				4361EBF0F5CB0D7E81DA2D127FDB4C90 /* Targets Support Files */,
@@ -286,6 +253,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D5468DBB23DA18F226B2D1B783862859 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D3E2F7BDFD150E66FB8C372B30E0395 /* AV360.modulemap */,
+				2BBF2E75F39220538FABAB096B426978 /* AV360-dummy.m */,
+				BCD0612C97070A4176D6F330A3E8C142 /* AV360-Info.plist */,
+				CAB1E49A46CF266C441627DFE68AD5A8 /* AV360-prefix.pch */,
+				1B4D975D590999B59C48F2011251D2C7 /* AV360-umbrella.h */,
+				DABC34ED4C80D884B877769A0C36F558 /* AV360.debug.xcconfig */,
+				63A064EC13F38C9B51139105B7795C4D /* AV360.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AV360";
+			sourceTree = "<group>";
+		};
+		EFCD9A1F59F45403675F561C16D6B6C4 /* AV360 */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EC8CC841A82B14717CADADFBED541 /* AV360CameraController.swift */,
+				A70BDFD35BB665F02A09D9C26E89D928 /* AV360CameraPanGestureRecognizer.swift */,
+				217DD32E05A2819263902D30AD819B6F /* AV360EulerAngleCalculations.swift */,
+				39DA70C374C2EDCD18E6EA6E886ECC3A /* AV360MotionManager.swift */,
+				3B6EAF26F72CAE18C2CAD5A334C03012 /* AV360MotionManagerObserverItem.swift */,
+				3C73AA08E3A0E3351042515FEB235BA6 /* AV360PlayerScene.swift */,
+				AD30708EEEED541605B601C5FAA40B58 /* AV360Types.swift */,
+				4B76A6E586FBFC49AB585422466ECBF9 /* AV360View.swift */,
+				44829103651402F534C43CF1A7DD7E19 /* AV360ViewController.swift */,
+				43A97942E56EBCC32173FEBA363C751F /* AV360Window.swift */,
+				01869CB4742D3CCB8B9B96588AFA40B5 /* AvatarCollectionViewCell.swift */,
+				9355ED84536E3F5D0206830CC849DD21 /* AvatarCollectionViewCell.xib */,
+				9444611E52794836AFD2938D7588816E /* Float++.swift */,
+				B421965492BDEE51C7497A088629BD33 /* PlayerVC.swift */,
+				04CC87EBBC1B69931773E3FFFBB3B3B4 /* PlayerVC.xib */,
+				628D7D2E9100379EEF91F7BDF22FEC00 /* SwiftySKVideoNode.swift */,
+				06E8E305D679A1B2B3A3EA764F96D5D0 /* Assets */,
+				177427BC2462BA88DF3E2FB993651979 /* Pod */,
+				D5468DBB23DA18F226B2D1B783862859 /* Support Files */,
+			);
+			name = AV360;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -297,14 +306,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		966FBCCC62E70DCD05D7EFD145CA08B4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0BE351220FE57FDAD07401DF22BCEB5D /* AV360-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C098BDF6AF13AA3CAB3719266A726380 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,17 +314,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E50CCB1711DE828E48BD3E5DDD8044A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254FC8408D2837DDDF855E93B51D8728 /* AV360-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		14E54E50066F2E549654D107B77B150E /* AV360 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DB5569CB1B2B8F1869CE68479517FDD /* Build configuration list for PBXNativeTarget "AV360" */;
+			buildConfigurationList = C62A019438559A1E2372EC4CCEDF5431 /* Build configuration list for PBXNativeTarget "AV360" */;
 			buildPhases = (
-				966FBCCC62E70DCD05D7EFD145CA08B4 /* Headers */,
-				BBFC19E4EFD12CFAF213FE9E71BB9162 /* Sources */,
-				D93035C27FC6429C6371A74DD5DC2732 /* Frameworks */,
-				0740C123A953178CCF0663179DBE5686 /* Resources */,
+				E50CCB1711DE828E48BD3E5DDD8044A6 /* Headers */,
+				6A5AA238A1126303DAC14849F56BA168 /* Sources */,
+				FC85C1FE05A5BBEFA9E7184ADDC7D87C /* Frameworks */,
+				CA791656EB32776DA6C1BF1BB44E7AB3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -331,7 +340,7 @@
 			);
 			name = AV360;
 			productName = AV360;
-			productReference = 8FCE1EBC64CA06A31AE25C549FBBF7AB /* AV360.framework */;
+			productReference = 8FCE1EBC64CA06A31AE25C549FBBF7AB /* AV360 */;
 			productType = "com.apple.product-type.framework";
 		};
 		3FAC998032FA61F6CA8B9D233E901510 /* Pods-AV360_Example */ = {
@@ -346,11 +355,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				50D1E476C5EC6CF5EB11AB436C65D64A /* PBXTargetDependency */,
+				2AF75802C7B2744ADA6ED7BDD7E4A546 /* PBXTargetDependency */,
 			);
 			name = "Pods-AV360_Example";
 			productName = Pods_AV360_Example;
-			productReference = 1BC3060A31FB2F5532195F3E50569F31 /* Pods_AV360_Example.framework */;
+			productReference = 1BC3060A31FB2F5532195F3E50569F31 /* Pods-AV360_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		9A545574E3545DDF9A721C3D466366D1 /* Pods-AV360_Tests */ = {
@@ -365,11 +374,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				C854271BFEFB23070099757B6C77428C /* PBXTargetDependency */,
+				B39F7C11E5CE922C70C885C8EAA65296 /* PBXTargetDependency */,
 			);
 			name = "Pods-AV360_Tests";
 			productName = Pods_AV360_Tests;
-			productReference = 1B8265D4335FBF816A2ECA6FFD89DAA5 /* Pods_AV360_Tests.framework */;
+			productReference = 1B8265D4335FBF816A2ECA6FFD89DAA5 /* Pods-AV360_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -378,8 +387,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -402,21 +411,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0740C123A953178CCF0663179DBE5686 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B3BCA0C2A2742D0002F32ED /* PlayerVC.xib in Resources */,
-				8B3BCA0D2A2742D0002F32ED /* AvatarCollectionViewCell.xib in Resources */,
-				8B3BCA042A2742C1002F32ED /* arrow_up.png in Resources */,
-				8B3BCA052A2742C1002F32ED /* ic_pause.png in Resources */,
-				8B3BCA062A2742C1002F32ED /* ic_play.png in Resources */,
-				8B3BCA072A2742C1002F32ED /* back-arrow-white.png in Resources */,
-				8B3BCA082A2742C1002F32ED /* ic_sound.png in Resources */,
-				8B3BCA092A2742C1002F32ED /* ic_sound_mute.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0CFD647C6F2DD9108A90E639224ECC18 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -431,6 +425,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CA791656EB32776DA6C1BF1BB44E7AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E988C214CC82971EE92382BA824E2888 /* arrow_up.png in Resources */,
+				28419F7992393450DADD919F2EE1589D /* AvatarCollectionViewCell.xib in Resources */,
+				191976235B735ADF88638AEA43601498 /* back-arrow-white.png in Resources */,
+				D833FF320F014368A02CC65D5AEF45E0 /* ic_pause.png in Resources */,
+				E38A3EF5E97BBFB21CAE087EECB7A6EC /* ic_play.png in Resources */,
+				9D565F53E0DB3257853870380317F38F /* ic_sound.png in Resources */,
+				4AB04F173CC4E1F4E3810A66BD50E927 /* ic_sound_mute.png in Resources */,
+				47FC2C34B9D961B221CB2B64F4B26A7E /* PlayerVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -442,25 +451,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBFC19E4EFD12CFAF213FE9E71BB9162 /* Sources */ = {
+		6A5AA238A1126303DAC14849F56BA168 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3BC9F02A2742AA002F32ED /* AV360CameraController.swift in Sources */,
-				8B3BC9F12A2742AA002F32ED /* AV360PlayerScene.swift in Sources */,
-				8B3BC9F22A2742AA002F32ED /* AV360Window.swift in Sources */,
-				8B3BC9F32A2742AA002F32ED /* AV360ViewController.swift in Sources */,
-				8B3BC9F42A2742AA002F32ED /* PlayerVC.swift in Sources */,
-				8B3BC9F52A2742AA002F32ED /* AV360Types.swift in Sources */,
-				8B3BC9F62A2742AA002F32ED /* AV360MotionManager.swift in Sources */,
-				8B3BC9F72A2742AA002F32ED /* AV360CameraPanGestureRecognizer.swift in Sources */,
-				8B3BC9F82A2742AA002F32ED /* AV360MotionManagerObserverItem.swift in Sources */,
-				8B3BC9F92A2742AA002F32ED /* SwiftySKVideoNode.swift in Sources */,
-				8B3BC9FA2A2742AA002F32ED /* AV360EulerAngleCalculations.swift in Sources */,
-				8B3BC9FB2A2742AA002F32ED /* AvatarCollectionViewCell.swift in Sources */,
-				8B3BC9FC2A2742AA002F32ED /* AV360View.swift in Sources */,
-				8B3BC9FD2A2742AA002F32ED /* Float++.swift in Sources */,
-				401219D62FACA200D6A4B58BE99A6F2D /* AV360-dummy.m in Sources */,
+				6BDF629A7C147037328B66D25BCD7D8D /* AV360-dummy.m in Sources */,
+				52EA866572B74AFC02ED8E96AEEE696B /* AV360CameraController.swift in Sources */,
+				40CDABD0B2E6C6CA4B02051BE2DC0520 /* AV360CameraPanGestureRecognizer.swift in Sources */,
+				C0BFFAEC5387D90B77E96F67D0D0F1A8 /* AV360EulerAngleCalculations.swift in Sources */,
+				D580781879E161573054E4742C4837D1 /* AV360MotionManager.swift in Sources */,
+				7215EA93A4C42A49A05FDEC02168DA66 /* AV360MotionManagerObserverItem.swift in Sources */,
+				35B1C5603323D793BC0DEB8F168254AD /* AV360PlayerScene.swift in Sources */,
+				D046B58E245F42378E5664C3BF997292 /* AV360Types.swift in Sources */,
+				A48653DDB92D2EA990D97A459A2A838E /* AV360View.swift in Sources */,
+				D9E1344782E143F74E25FF3CCAA97E49 /* AV360ViewController.swift in Sources */,
+				2916B37D97F381A8E71EC3D6503E054D /* AV360Window.swift in Sources */,
+				502CEE8AD0E9519D7B8DDE42FB6E1B80 /* AvatarCollectionViewCell.swift in Sources */,
+				D02464FEB354916FCB82B2751D6CF47B /* Float++.swift in Sources */,
+				03DE93B170E2EA39355FA4D0DDD9F036 /* PlayerVC.swift in Sources */,
+				8182CF94024DEAB15E4845E533983446 /* SwiftySKVideoNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,220 +484,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		50D1E476C5EC6CF5EB11AB436C65D64A /* PBXTargetDependency */ = {
+		2AF75802C7B2744ADA6ED7BDD7E4A546 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AV360;
 			target = 14E54E50066F2E549654D107B77B150E /* AV360 */;
-			targetProxy = 4B8E74855754FF3E07A43D0FFB3B8909 /* PBXContainerItemProxy */;
+			targetProxy = 62F19909A3760035FF20FB59C8F4AF05 /* PBXContainerItemProxy */;
 		};
-		C854271BFEFB23070099757B6C77428C /* PBXTargetDependency */ = {
+		B39F7C11E5CE922C70C885C8EAA65296 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AV360_Example";
 			target = 3FAC998032FA61F6CA8B9D233E901510 /* Pods-AV360_Example */;
-			targetProxy = BF27C043A23973E5EAC8DB3270894251 /* PBXContainerItemProxy */;
+			targetProxy = 5B4AB3CA0D031A8FE3BC4A9FBE1B1FD1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3093A08371A8487AB6EA5D8512821B62 /* Release */ = {
+		09B58744ED9BC36C19F33CBAE1FD7D2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0719CA089159C3F725D9BFD8F05C00A4 /* Pods-AV360_Tests.release.xcconfig */;
+			baseConfigurationReference = DABC34ED4C80D884B877769A0C36F558 /* AV360.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AV360_Tests/Pods-AV360_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AV360_Tests/Pods-AV360_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		36D18B20A55D3FB1D6824D123A01D1FD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 031F1226601EBA86C43538053895D700 /* Pods-AV360_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AV360_Tests/Pods-AV360_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AV360_Tests/Pods-AV360_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5EE53C72B85F60A3D93EADFD4253CE26 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F6435844BD457994A6402A0DC04C01A /* Pods-AV360_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AV360_Example/Pods-AV360_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AV360_Example/Pods-AV360_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		8A36D5BD39C32B45C1A777950BD347B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64FAF9FCAEA311AA5327B36F6209A4F4 /* Pods-AV360_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AV360_Example/Pods-AV360_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AV360_Example/Pods-AV360_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C3F756E51F4C6CAD73E3173895540F7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31F10137EFBC372208976CFA02E11279 /* AV360.debug.xcconfig */;
-			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -716,7 +531,74 @@
 			};
 			name = Debug;
 		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+		0C89AABB2B0F1254977083B2CD77C213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031F1226601EBA86C43538053895D700 /* Pods-AV360_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AV360_Tests/Pods-AV360_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AV360_Tests/Pods-AV360_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70191D7C4B115BCC765A15CCF7499220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A064EC13F38C9B51139105B7795C4D /* AV360.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AV360/AV360-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AV360/AV360-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AV360/AV360.modulemap";
+				PRODUCT_MODULE_NAME = AV360;
+				PRODUCT_NAME = AV360;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -769,7 +651,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -782,10 +664,12 @@
 			};
 			name = Debug;
 		};
-		F24BCE8F7CC87EF1729751BECB99B6CF /* Release */ = {
+		9623497E913221E808438227D16B4EFE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 695EFEBA187DC90D65C7292828FA2D75 /* AV360.release.xcconfig */;
+			baseConfigurationReference = 64FAF9FCAEA311AA5327B36F6209A4F4 /* Pods-AV360_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -795,18 +679,150 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AV360/AV360-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AV360/AV360-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AV360_Example/Pods-AV360_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AV360/AV360.modulemap";
-				PRODUCT_MODULE_NAME = AV360;
-				PRODUCT_NAME = AV360;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AV360_Example/Pods-AV360_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D04EB1786511B24944F88959B5C0039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0719CA089159C3F725D9BFD8F05C00A4 /* Pods-AV360_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AV360_Tests/Pods-AV360_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AV360_Tests/Pods-AV360_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DFF89F3167B2B7FC0DED100F5E8AD0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F6435844BD457994A6402A0DC04C01A /* Pods-AV360_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AV360_Example/Pods-AV360_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AV360_Example/Pods-AV360_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -820,17 +836,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5DB5569CB1B2B8F1869CE68479517FDD /* Build configuration list for PBXNativeTarget "AV360" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C3F756E51F4C6CAD73E3173895540F7C /* Debug */,
-				F24BCE8F7CC87EF1729751BECB99B6CF /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -838,8 +845,8 @@
 		AD48548F84BF9166C9C529222370330D /* Build configuration list for PBXNativeTarget "Pods-AV360_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36D18B20A55D3FB1D6824D123A01D1FD /* Debug */,
-				3093A08371A8487AB6EA5D8512821B62 /* Release */,
+				0C89AABB2B0F1254977083B2CD77C213 /* Debug */,
+				9D04EB1786511B24944F88959B5C0039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -847,8 +854,17 @@
 		B22AF9937411EC1CDFCE64D83D0E7BB4 /* Build configuration list for PBXNativeTarget "Pods-AV360_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A36D5BD39C32B45C1A777950BD347B7 /* Debug */,
-				5EE53C72B85F60A3D93EADFD4253CE26 /* Release */,
+				9623497E913221E808438227D16B4EFE /* Debug */,
+				DFF89F3167B2B7FC0DED100F5E8AD0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62A019438559A1E2372EC4CCEDF5431 /* Build configuration list for PBXNativeTarget "AV360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B58744ED9BC36C19F33CBAE1FD7D2A /* Debug */,
+				70191D7C4B115BCC765A15CCF7499220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
