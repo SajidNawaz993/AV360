@@ -47,15 +47,6 @@ For questions - refer to Particle mobile knowledgebase/community here: https://c
 
 Good luck!
 
-## Installation
-
-AV360 is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'AV360'
-```
-
 ## Author
 
 "Sajid Nawaz", sajidnawaz993@gmail.com
