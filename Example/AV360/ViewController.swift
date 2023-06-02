@@ -22,8 +22,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func av360btntpd(_ sender: Any) {
-            // initialize player with user id and bearer token
-            let vc = PlayerVC.getPlayerVC(userId: "6364efc88644b4cfc5bdafad", bearerToken: "")
+            // initialize player with event id and bearer token
+            let vc = PlayerVC.getPlayerVC(eventId:"6364efc88644b4cfc5bdafad", bearerToken: "")
             self.present(vc, animated: true)
         }
     

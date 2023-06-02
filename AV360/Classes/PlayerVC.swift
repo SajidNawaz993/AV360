@@ -32,7 +32,7 @@ public class PlayerVC: UIViewController {
     var avatar = Array<Any>()
     var player :AVPlayer?
     var playerItem: AVPlayerItem?
-    var userId:String = ""
+    var eventId:String = ""
     var isMuteVolume:Bool = false
     var isPlay:Bool = true
     var selectIndex:Int = 0
@@ -58,10 +58,10 @@ public class PlayerVC: UIViewController {
         self.apiCall()
     }
     
-    public class func getPlayerVC(userId:String, bearerToken:String)->PlayerVC{
+    public class func getPlayerVC(eventId:String, bearerToken:String)->PlayerVC{
       let bundle = Bundle(for: PlayerVC.classForCoder())
         let playerVC = PlayerVC(nibName: "PlayerVC", bundle: bundle)
-        playerVC.userId = userId
+        playerVC.eventId = eventId
         playerVC.bearerToken = bearerToken
         return playerVC
     }
@@ -210,7 +210,7 @@ public class PlayerVC: UIViewController {
     // ------------------------------------------------
     
     func apiCall(){
-        var request = URLRequest(url: URL(string: "https://7k67ed7acrzp3725sijxq3fedm0xaowa.lambda-url.eu-central-1.on.aws/events/\(userId)")!)
+        var request = URLRequest(url: URL(string: "https://7k67ed7acrzp3725sijxq3fedm0xaowa.lambda-url.eu-central-1.on.aws/events/\(eventId)")!)
         request.httpMethod = "GET"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         request.addValue("Authorization", forHTTPHeaderField: "Bearer \(bearerToken)")

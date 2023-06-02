@@ -32,13 +32,13 @@ Built using XCode 14.1 (Swift 5)
 
 ### Code
 
-See ViewController requesting particle setup AV360 player with user id and bearer token.
+See ViewController requesting particle setup AV360 player with event id and bearer token.
 .
 
 To invoke setup:
 
 ```
-let vc = PlayerVC.getPlayerVC(userId: "6364efc88644b4cfc5bdafad", bearerToken: "")
+let vc = PlayerVC.getPlayerVC(eventId: "6364efc88644b4cfc5bdafad", bearerToken: "")
 self.present(vc, animated: true)
 
 ```
